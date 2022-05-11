@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ====== FAVICON ===== -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- ====BOXICONS ====-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--==== CSS ====-->
+    <link rel="stylesheet" href="estilos.css">
+    <!--  ============= swiper css -->
+    <link rel="stylesheet" href="/asset//swiper-bundle.min.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Portfolio-Vicki</title>
+</head>
+
+<body>
+    <!--==== HEADER ====  -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo" style="margin-left:50px;">Victoria</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="bx bx-home-alt"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="bx bx-user"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-book"></i>
+                        </a>
+                    </li> 
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="bx bx-briefcase"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="bx bx-message-square-detail"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Theme change button -->
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+    <!-- ======== MAIN ======= -->
+    <main class="main">
+        <!-- ======== HOME ====== -->
+        <section class="home section" id="home">
+            <div class="home__container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hola, soy</span>
+                    <h1 class="home__name">Victoria González</h1>
+                    <h3 class="home__education">Ingeniera Industrial</h3>
+
+                    <div class="home__buttons">
+                        <a href="./CV Victoria Gonzalez.pdf" class="button button--ghost" target="_blank">Descarga CV</a>
+                        <a href="#about" class="button">Acerca de mì</a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <!-- <img src="/asset/img/IMG_20210829_103614.jpg" alt="" class="home__img"> -->
+                    <a href="#" class="home__social-link">
+                        <i class="class bx bxl-linkdin-square"></i>
+                    </a>
+                </div>
+                <a href="#about" class="home__scroll">
+                    <i class="bx bx-mouse home__scroll-icon"></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+        <!--================= ABOUT ==================  -->
+        <section class="about section" id="about">
+            <span class="section__subtitle">Mi intro</span>
+            <h2 class="section__title">Acerca de mì</h2>
+            <div class="about__container container grid">
+                <img src="/asset/img/IMG_20210829_103614.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="bx bx-award about__icon"></i>
+                            <h3 class="about__title">Experiencia</h3>
+                            <span class="about__subtitle">4 años</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="bx bx-briefcase-alt about__icon"></i>
+                            <h3 class="about__title">Completado</h3>
+                            <span class="about__subtitle">48 + Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="bx bx-support about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">24/7</span>
+                        </div>
+                    </div>
+                    <p class="about__description">Ofrezco asesoramiento para PYMES y empresas familiares,
+                        con un abanico de servicios multidisciplinarios que pueden diseñarse para cubrir la necesidad de
+                        cada cliente.
+                    </p>
+                    <a href="#contact" class="button">Contacto</a>
+                </div>
+            </div>
+        </section>
+        <!-- ======== SKILLS =============== -->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">Mis habilidades</span>
+            <h2 class="section__title">Mi Experiencia</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Analista de Procesos</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Relevamiento y estandarización</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Programa mejora de procesos</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- =========== grupo dos ============ -->
+                        <!-- <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Go</h3>
+                                    <span class="skills__level">basico</span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Reactjs</h3>
+                                    <span class="skills__level">basico/avanzado</span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">SCSS</h3>
+                                    <span class="skills__level">basico</span>
+                                </div>
+
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- ===================== segundo grupo ====================== -->
+                    <div class="skills__content">
+                    <h3 class="skills__title">Coordinadora de Innovación</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Relevamiento</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Ideación</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Portfolio de proyectos</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- =========== grupo dos ============ -->
+                        <!-- <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Go</h3>
+                                    <span class="skills__level">basico</span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Reactjs</h3>
+                                    <span class="skills__level">basico/avanzado</span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">SCSS</h3>
+                                    <span class="skills__level">basico</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- ========fin de grupo =========== -->
+                <!-- </div> -->
+            </div>
+        </section>
+        <!-- ================ SERVICES ================= -->
+        <section class="services section" id="services">
+            <span class="section__subtitle">Mis servicios</span>
+            <h2 class="section__title">Que Ofrezco</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Procesos</h3>
+                    <span class="services__button">
+                        ver mas
+                        <i class="bx bx-right-arrow-alt services__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Procesos</h3>
+                            <p class="services__modal-description"></p>
+                            <ul class="services__modal-list">
+                            <li class="services__modal-item">
+                                <i class="bx bx-check services__modal-icon"></i>
+                                <p class="services__modal-info">Entendimiento y confección de mapa de procesos</p>
+                            </li>
+                            <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info"> Desarrollo, Estandarización e Implementación de procesos</p>
+                            </li>
+                            <li class="services__modal-item">
+                                <i class="bx bx-check services__modal-icon"></i>
+                                <p class="services__modal-info"> Mejora de procesos</p>
+                            </li>
+                            <li class="services__modal-item">
+                                <i class="bx bx-check services__modal-icon"></i>
+                                <p class="services__modal-info"> Analisis de procesos estrategicos</p>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<!-- ================== segunda cards ============= -->
+                <div class="services__card">
+                    <h3 class="services__title">Innovación</h3>
+                    <span class="services__button">
+                        ver mas
+                        <i class="bx bx-right-arrow-alt services__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Innovación</h3>
+                            <p class="services__modal-description"></p>
+                            <ul class="services__modal-list">
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Jornada de ideaciòn</p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Priorizaciòn de ideas</p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info"> Soporte en ejecuciòn de proyectos</p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info"> Coordinar equipos de innovaciòn </p>
+                                </li>
+
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Innovaciòn en producto, servicio, procesos y modelos de negocio.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<!-- ======== tercera cards!! ========= -->
+                <div class="services__card">
+                   <h3 class="services__title">Agilidad y <br> Transformaciòn </h3>
+                    <span class="services__button">
+                        ver mas
+                        <i class="bx bx-right-arrow-alt services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Agilidad y Transformaciòn</h3>
+                            <p class="services__modal-description"></p>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Imparticiòn de buenas practicas y confecciòn de equipos agiles </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+      <!-- ====================== cuarta tarjeta ===============  -->
+
+      <div class="services__card">
+        <h3 class="services__title">Gestiòn Organizacional</h3>
+        <span class="services__button">
+            ver mas
+            <i class="bx bx-right-arrow-alt services__icon"></i>
+        </span>
+        <div class="services__modal">
+            <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Gestion Organizacional</h3>
+                <p class="services__modal-description"></p>
+                <ul class="services__modal-list">
+
+                    <li class="services__modal-item">
+                        <i class="bx bx-check services__modal-icon"></i>
+                        <p class="services__modal-info">Asesoramiento</p>
+                    </li>
+
+                </ul>
+            </div>
+          </div>
+        </div>  
+<!-- ======================= quinta card ============ -->
+<div class="services__card">
+    <h3 class="services__title">Software y <br> Digitalizaciòn</h3>
+    <span class="services__button">
+        ver mas
+        <i class="bx bx-right-arrow-alt services__icon"></i>
+    </span>
+    <div class="services__modal">
+        <div class="services__modal-content">
+            <i class="bx bx-x services__modal-close"></i>
+
+            <h3 class="services__modal-title">Software y <br> Digitalizaciòn</h3>
+            <p class="services__modal-description"></p>
+            <ul class="services__modal-list">
+
+                <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Desarrollo y diseño de paginas web</p>
+                </li>
+
+                <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Market place</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+ <!-- ====================== sexta card ========= -->
+ <div class="services__card">
+    <h3 class="services__title">Contabilidad</h3>
+    <span class="services__button">
+        ver mas
+        <i class="bx bx-right-arrow-alt services__icon"></i>
+    </span>
+    <div class="services__modal">
+        <div class="services__modal-content">
+            <i class="bx bx-x services__modal-close"></i>
+
+            <h3 class="services__modal-title">Contabilidad</h3>
+            <p class="services__modal-description"></p>
+            <ul class="services__modal-list">
+
+                <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Confecciòn de balances</p>
+                </li>
+
+                <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Asesoramiento contable en general.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+            </div>
+    
+        </section>
+        <!-- <section class="work section" id="work">
+            <span class="section__subtitle">Mi Portafolio</span>
+            <h2 class="section__title">Trabajos recientes</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>all</span>
+                <span class="work__item" data-filter='.web'>web</span>
+                <span class="work__item" data-filter='.movil'>movil</span>
+                <span class="work__item" data-filter='.design'>design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="/asset/img/office-gaa941bb26_1280.jpg" alt="" class="work__img">
+                    <h3 class="work__title">web design</h3>
+                    <a href="#" class="work__button">
+                        demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <!-- <img src="/asset/img/IMG_20210903_201316.jpg" alt="" class="work__img"> -->
+                    <!-- <h3 class="work__title">app movil</h3>
+                    <a href="#" class="work__button">
+                        demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <!-- <img src="/asset/img/IMG_20210903_201316.jpg" alt="" class="work__img"> -->
+                    <!-- <h3 class="work__title">brand design</h3>
+                    <a href="#" class="work__button">
+                        demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <!-- <img src="/asset/img/IMG_20210903_201316.jpg" alt="" class="work__img"> -->
+                    <!-- <h3 class="work__title">web design</h3>
+                    <a href="#" class="work__button">
+                        demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+            </div> -->
+        <!-- </section> --> 
+        <!-- ===================== testimonios =============== -->
+        <!-- <section class="testimonial section">
+        <span class="section__subtitle">mis clientes dicen</span>
+         <h2 class="section__title">testimonios</h2>
+
+         <div class="testimonial__container container swiper">
+             <div class="swiper-wrapper">
+             <div class="testimonial__card swiper-slide">
+                 <img src="/asset/img/office-gaa941bb26_1280.jpg" alt="" class="testimonial__img">
+
+                 <h3 class="testimonial__name">Ignacio sanchez</h3>
+                 <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fugiat dolor id?</p>
+             </div>
+
+             <div class="testimonial__card swiper-slide">
+                 <img src="/asset/img/office-gaa941bb26_1280.jpg" alt="" class="testimonial__img">
+
+                 <h3 class="testimonial__name">Ignacio sanchez</h3>
+                 <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fugiat dolor id?</p>
+             </div>
+
+             <div class="testimonial__card swiper-slide">
+                 <img src="/asset/img/office-gaa941bb26_1280.jpg" alt="" class="testimonial__img">
+
+                 <h3 class="testimonial__name">Ignacio sanchez</h3>
+                 <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fugiat dolor id?</p>
+             </div>
+         </div>  
+         <div class="swiper-pagination"></div>
+     </div>
+
+
+    </section> -->
+        <!-- ========== CONTACT === -->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">Contactame</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Escribime</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="bx bx-mail-send contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">victoria.gonzalez.mza@gmail.com</span>
+                            <a href="mailto:victoria.gonzalez.mza@gmail.com" target="_blank" class="contact__button">
+                                Escribime <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="bx bxl-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+5492615870319</span>
+                            <a href="https://wa.me/+5492615870319?text=Mas Info+" target="_blank"
+                                class="contact__button">
+                                Escribime <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">Redacta tu consulta</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Nombre</label>
+                            <input type="text" placeholder="nombre" class="contact__form-input"></label>
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Email</label>
+                            <input type="text" placeholder="email" class="contact__form-input"></label>
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Proyecto</label>
+                            <textarea placeholder="comente su proyecto" name="" id="" cols="30" rows="10"
+                                class="contact__form-input"></textarea>
+                        </div>
+                        <button class="button">Envie su mensaje</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- === footer === -->
+    <section>
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Victoria</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#testimonial" class="footer__link">testimonial</a>
+                    </li>
+                </ul>
+
+                <!-- <ul class="footer__social">
+                <a href="" target="_blank" class="footer__social-link"></a>
+            </ul> -->
+
+                <!-- leyenda para terminar o copyright -->
+
+                <!-- <span class="footer__copy">
+                &#
+            </span> -->
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="mixitup/dist/mixitup.min.js"></script>
+</body>
+
+</html>
