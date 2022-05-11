@@ -977,7 +977,7 @@ body.light-theme {
 @media screen and (min-width: 576px) {
     .nav{
         display: flex;
-        margin-left: -20px;
+        margin-left: 20px;
     }
     .nav__menu {
         width: 328px;
