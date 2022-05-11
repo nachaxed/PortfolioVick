@@ -968,7 +968,12 @@ body.light-theme {
 }
 
 /* tamaño medium devices */
-
+@media screen and (min-width: 400px){
+    .nav{
+        height: calc(var(--header-height) + 1rem);
+        margin-left: -20px; 
+    }
+}
 @media screen and (min-width: 576px) {
     .nav{
         display: flex;
