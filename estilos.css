@@ -1049,6 +1049,12 @@ body.light-theme {
         display: flex;
         margin-left: 15px;
     }
+    .home__container{
+        justify-content: center;
+    }
+    .home__img{
+        margin-left: 53px;
+    }
     .home__buttons{
         display: inherit;
     }
