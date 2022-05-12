@@ -265,11 +265,11 @@ img {
 
 .home__img {
     width: 160px;
-    margin-left: 100px;
+    margin-left: 566px;
     border-radius: 10px;
     transition:  .4s;
     margin-top: -100px;
-    
+
 } 
 .home__handle{
     margin-top: 65px;
@@ -944,6 +944,8 @@ body.light-theme {
     }
     .home__img {
         width: 130px;
+        border-radius: 12px;
+        transition: .4s;
     }
 
     .about__info {
@@ -1133,6 +1135,8 @@ body.light-theme {
     }
     .home__img{
         width: 220px;
+        border-radius: 12px;
+        transition: .4s;
     }
     .home__social-link{
         padding: .4rem;
