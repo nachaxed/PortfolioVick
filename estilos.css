@@ -1068,10 +1068,13 @@ body.light-theme {
         width: 100%;
     }
     .skills__container{
-        margin-left: 7px;
+        margin-left: -1px;
     }
     .skills__content{
-        margin-left: -4px;
+        margin-left: 8px;
+    }
+    .services__container{
+        margin-left: 32px;
     }
     .services .section{
         margin-left: 15px;
