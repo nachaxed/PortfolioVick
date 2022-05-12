@@ -176,7 +176,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 72px;
+    margin-left: 20px;
 }
 
 .nav__logo {
@@ -1027,6 +1027,35 @@ body.light-theme {
     .contact__form{
         width: 360px;
         margin: 0 auto;
+    }
+}
+@media screen and (max-width: 375px){
+    .nav{
+        margin-left: 20px;
+    }
+    .nav .container{
+        margin-left: 30px;
+    }
+    .nav__logo{
+        margin-left: 5px;
+    }
+    .home__buttons{
+        display: inherit;
+    }
+    .about__description{
+        margin-left: 0;
+        margin-bottom: 2rem;
+        display: flex;
+        width: 100%;
+    }
+    .skills__container{
+        margin-left: -3px;
+    }
+    .skills__content{
+        margin-left: 2px;
+    }
+    .services .section{
+        margin-left: 15px;
     }
 }
 @media screen and (min-width: 400px){
