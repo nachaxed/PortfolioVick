@@ -1045,6 +1045,9 @@ body.light-theme {
     .home__buttons{
         display: inherit;
     }
+    .main{
+        margin-top: 40px;
+    }
     .about__description{
         margin-left: 0;
         margin-bottom: 2rem;
