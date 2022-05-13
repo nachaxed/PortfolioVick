@@ -1053,6 +1053,11 @@ body.light-theme {
     .home__container{
         justify-content: center;
     }
+    .home__data{
+       text-align: center;
+       justify-content: center;
+       margin-left: 20px;
+       }
     .home__img{
         margin-left: 53px;
     }
