@@ -1039,7 +1039,7 @@ body.light-theme {
         margin: 0 auto;
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
     .nav{
         margin-left: 20px;
     }
@@ -1048,16 +1048,19 @@ body.light-theme {
     }
     .nav__logo{
         display: flex;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .home__container{
         justify-content: center;
     }
     .home__img{
-        margin-left: 53px;
+        margin-left: 76px;
     }
     .home__buttons{
         display: inherit;
+    }
+    .home__data{
+        margin-left: 29px;
     }
     .main{
         margin-top: 40px;
@@ -1080,8 +1083,8 @@ body.light-theme {
     .services .section{
         margin-left: 15px;
     }
-    .services__modal-content{
-        margin-left: -100px;
+    .services__modal{
+       margin-left: -452px;
     }
 }
 @media screen and (min-width: 400px){
