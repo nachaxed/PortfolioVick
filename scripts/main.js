@@ -98,16 +98,16 @@ window.addEventListener('scroll', scrollActive)
 
 /* ======= show scroll up */
 
-function scrollUp() {
-    const scrollUp = document.getElementById('scroll-up');
+// function scrollUp() {
+//     const scrollUp = document.getElementById('scroll-up');
 
-    if (this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
-}
-window.addEventListener('scroll', scrollUp)
+//     if (this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+// }
+// window.addEventListener('scroll', scrollUp)
 
 /* =========== DARK LIGHT THEME ========= */
 const themeButton = document.getElementById('theme-button')
-const lightTheme = '.light-theme'
+const lightTheme = 'light-theme'
 const iconTheme = 'bx-sun'
 //si selectamos
 const selectedTheme = localStorage.getItem('selected-theme')
@@ -146,4 +146,3 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, { delay: 700 })
 sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' })
-
