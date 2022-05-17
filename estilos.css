@@ -531,7 +531,7 @@ img {
     background-color: var(--body-color);
     padding: 4.5rem 1.5rem 2.5rem;
     border-radius: 1.5rem;
-    margin-left: 450px;
+    margin-left: 880px;
     margin-top: 110px;
 }
 
@@ -786,7 +786,9 @@ img {
 .contact__form-area textarea {
     resize: none;
 }
-
+#trucazo{
+    opacity: 0;
+}
 /* footer */
 
 .footer {
@@ -870,7 +872,7 @@ img {
 body.light-theme {
     --title-color: hsl(var(--second-hue), 15%, 15%);
     --text-color: hsl(var(--second-hue), 8%, 35%);
-    --text-color-light: hsl(var(--second-hue), 100%, 99%);
+
     --body-color: hsl(var(--second-hue), 48%, 8%);
     --container-color: #fff;
 }
@@ -914,7 +916,6 @@ body.light-theme {
 .light-theme .skills__content,
 .light-theme .services__card,
 .light-theme .work__card,
-.light-theme .testimonial__card,
 .light-theme .contact__card {
     box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, .1);
 }
@@ -1058,6 +1059,7 @@ body.light-theme {
     }
     .home__buttons{
         display: inherit;
+        margin-top: 2px;
     }
     .home__data{
         margin-left: 29px;
@@ -1118,7 +1120,7 @@ body.light-theme {
         margin-left: 15px;
     }
     .services__modal-content{
-        margin-left: 0;
+        margin-left: 450px;
     }
 }
 @media screen and (min-width: 767px){
@@ -1228,5 +1230,8 @@ body.light-theme {
     .container{
         margin: auto;
         padding: auto;
+    }
+    .services__modal-content{
+        margin-left: 880px;
     }
 }
