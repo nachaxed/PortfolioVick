@@ -872,9 +872,11 @@ img {
 body.light-theme {
     --title-color: hsl(var(--second-hue), 15%, 15%);
     --text-color: hsl(var(--second-hue), 8%, 35%);
-
     --body-color: hsl(var(--second-hue), 48%, 8%);
     --container-color: #fff;
+    color: var(--container-color);
+    background-color: #fff;
+    --color-text: #A395E9;
 }
 .light-theme .scroll-header {
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1);
@@ -897,7 +899,10 @@ body.light-theme {
 .light-theme .footer__social-link {
     background-color: var(--title-color);
 }
-
+.light-theme .services__modal-content{
+    background-color: #fff;
+    box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, .1);
+}
 .light-theme .home__social-link,
 .light-theme .home__scroll,
 .light-theme .button,
@@ -905,12 +910,32 @@ body.light-theme {
 .light-theme .active-work,
 .light-theme .footer__title,
 .light-theme .footer__social-link,
-.light-theme .footer__copy {
-    color: var(--title-color);
-}
+.light-theme .footer__copy
+    {
+    color: var(--body-font);
 
+}
+.light-theme .contact__card-data,
+.light-theme .contact__form-tag{
+    color: var(--color-text);
+    background-color: #fff;
+}
+.light-theme .about__description{
+    color: black;
+}
 .light-theme .about__box {
     box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, .1);
+    color: var(--body-font);
+    border: 2px solid #888B91;
+}
+.light-theme .about__subtitle  {
+    color: black;
+}
+.light-theme .bx.bxs-badge-check{
+    color: var(--color-text);
+}
+.light-theme .button--ghost{
+    color: var(--color-text);
 }
 
 .light-theme .skills__content,
@@ -918,6 +943,7 @@ body.light-theme {
 .light-theme .work__card,
 .light-theme .contact__card {
     box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, .1);
+    border: 2px solid #888B91;
 }
 
 .light-theme::-webkit-scrollbar {
