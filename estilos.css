@@ -878,6 +878,13 @@ body.light-theme {
     background-color: #fff;
     --color-text: #A395E9;
 }
+.light-theme .header{
+    background-color: #A395E9;
+    color: white;
+}
+.light-theme .nav__logo{
+    color: #0B111E;
+}    
 .light-theme .scroll-header {
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1);
 }
