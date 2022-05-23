@@ -1111,6 +1111,9 @@ body.light-theme {
     .home__data{
         margin-left: 29px;
     }
+    .home__handle{
+        margin: auto;
+    }
     .main{
         margin-top: 40px;
     }
@@ -1122,9 +1125,12 @@ body.light-theme {
     }
     .skills__container{
         margin-left: -1px;
+        gap: inherit;
+        display: flex;
     }
     .skills__content{
         margin-left: 8px;
+        width: 49%;
     }
     .services__container{
         margin-left: 32px;
@@ -1134,6 +1140,55 @@ body.light-theme {
     }
     .services__modal{
        margin-left: -452px;
+    }
+    .services__modal-content{
+        margin-left: auto;
+        width: 42%;
+    }
+}
+@media screen and (min-width: 320px){
+    .services__modal-content{
+        margin-left: auto;
+    }
+    .home__handle{
+        margin:auto;
+    }
+    .home__img {
+        margin: auto;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .about__container{
+        margin: auto;
+    }
+    .about__info{
+        margin: auto;
+        grid-template-columns: 145px;
+        justify-content: center;
+    }
+    .about__description{
+        grid-template-columns: 145px;
+        justify-content: center;
+        width: 100%;
+        font-size: 12px;
+        height: 30%;
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .skills__content{
+    grid-template-columns: 145px;
+    justify-content: center;
+    width: 50%;
+    margin-left: -7px;
+    }
+    .services__card{
+    grid-template-columns: 145px;
+    justify-content: center;
+    }
+    .section__title{
+        justify-content: center;
+        text-align: center;
     }
 }
 @media screen and (min-width: 400px){
@@ -1150,6 +1205,10 @@ body.light-theme {
     }
     .home__buttons{
         display: inherit;
+    }
+    .home__handle{
+        display: flex;
+        margin: auto;
     }
     .about__description{
         margin-left: 0;
