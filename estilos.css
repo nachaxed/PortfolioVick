@@ -268,11 +268,21 @@ img {
     margin-left: 566px;
     border-radius: 10px;
     transition:  .4s;
-    margin-top: -100px;
+    margin-right: 76px;
 
 } 
 .home__handle{
     margin-top: 65px;
+    width: 190px;
+    height: 293px;
+    background: linear-gradient(180deg, hsla(var(--first-hue), var(--sat), var(--lig),1),
+    hsla(var(--first-hue), var(--sat), var(--lig), .2));
+    border-radius: 10rem 10rem 1rem 1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 109px;
 }
 .home__buttons {
     display: flex;
@@ -284,6 +294,8 @@ img {
 .home__social,
 .home__scroll {
     position: absolute;
+    color: var(--container-color); 
+    margin: auto;
 }
 
 .home__social {
@@ -879,14 +891,16 @@ body.light-theme {
     --color-text: #A395E9;
 }
 .light-theme .header{
-    background-color: #A395E9;
-    color: white;
+    background-color: white;
+    z-index: 3;
+   
 }
 .light-theme .nav__logo{
     color: #0B111E;
 }    
 .light-theme .scroll-header {
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1);
+    color: var(--color-text);
 }
 
 .light-theme .nav__menu {
