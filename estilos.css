@@ -1229,16 +1229,42 @@ body.light-theme {
         margin-left: 450px;
     }
 }
-@media screen and (min-width: 767px){
-    .work__container{
-        grid-template-columns: repeat(2, max-content);
+@media screen and (min-width:768px ){
+    body{
+        margin: auto;
     }
-    .contact__container{
-        grid-template-columns: repeat(2, max-content);
-        justify-content: center;
-        column-gap: 3rem;
+    .nav__logo{
+        margin-left: 100px;
     }
-}
+    #theme-button{
+        margin-right: 60px;
+    }
+    .about{
+        margin: auto;
+    }
+    .about__title{
+        font-size: 15px;
+    }
+    .about__subtitle{
+        font-size: 12px;
+    }
+    .about__description{
+        font-size: 18px;
+    }
+    .services__container{
+        margin: auto;
+    }
+    .services__modal{
+        margin: auto;
+    }
+    .services__modal-content{
+        margin: auto;
+        margin-top: 170px;
+    }
+    .skills__container{
+        margin: auto;
+    }
+} 
 
 @media screen and (min-width:992px){
     .container{
