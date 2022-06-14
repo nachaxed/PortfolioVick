@@ -1057,7 +1057,7 @@ body.light-theme {
     }
     .services__container{
         display: inline-grid;
-        margin-left: 50px;
+        margin-left: 35px;
         margin-top: -5px;
     }
     .services__modal-content{
