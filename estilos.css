@@ -1,5 +1,6 @@
 /* ====== fonts google */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@1,100&display=swap');
 
 :root {
     --header-height: 3.5rem;
@@ -823,6 +824,8 @@ img {
 .footer__title {
     text-align: center;
     margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
 }
 
 .footer__list {
@@ -845,6 +848,7 @@ img {
     border-radius: .25rem;
     font-size: 1rem;
     display: inline-flex;
+    
 }
 
 .footer__copy {
@@ -1023,4 +1027,45 @@ body.light-theme {
     .services__button{
         margin-top: -10px;
     }
+}
+
+@media screen and (max-width:425px){
+    .home__data{
+        margin: auto;
+    }
+    .home__handle{
+        margin: auto;
+    }
+    .home__handle img{
+        margin-left: 75px;
+        width: max-content;
+    }
+    .about__info{
+        margin: auto;
+        width: 90%;
+    }
+    .about__description{
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+        width:80%;
+    }
+    #about__button{
+        margin-top: 20px;
+    }
+    .services__container{
+        display: inline-grid;
+        margin-left: 56px;
+        margin-top: -5px;
+    }
+    .services__modal-content{
+        width: 354px;
+        margin-left: 20px;
+    }
+    #footer__git{
+        margin-top: -1px;
+    }
+
 }
