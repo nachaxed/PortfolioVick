@@ -1188,3 +1188,11 @@ body.light-theme {
         margin: auto;
     }
 } 
+@media screen and (max-width: 1440px){
+    .nav__logo{
+        margin-left: 120px;
+    }
+    .header{
+        margin-left: 200px;
+    }
+}
