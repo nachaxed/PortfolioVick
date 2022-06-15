@@ -1057,7 +1057,7 @@ body.light-theme {
     }
     .services__container{
         display: inline-grid;
-        margin-left: 35px;
+        margin-left: 40px;
         margin-top: -5px;
     }
     .services__modal-content{
@@ -1067,5 +1067,59 @@ body.light-theme {
     #footer__git{
         margin-top: -1px;
     }
+}
 
+@media screen and (max-width:1440px){
+    .header{
+        margin-left: 179px;
+    }
+    .nav{
+        width: auto;
+    }
+    .nav__logo{
+        margin-left: 10px;
+    }
+    .nav__menu{
+        margin-left: 330px;
+        width: 363px;
+    }
+    .home__handle{
+        margin: auto;
+    }
+    .home__handle img{
+        margin-left: 80px;
+        width: 100%;
+    }
+    .about__container{
+        display: flex;
+    }
+    .about__section{
+        display: inline-grid;
+    }
+    .about__data{
+        width: 574px;
+        margin-left: 20px;
+    }
+    .about__description{
+        margin-left: 10px;
+
+    }
+    .about__img{
+        width: 350px;
+    }
+    .services__container{
+        display: inline-grid;
+        margin-left: 410px;
+        position: relative;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
+    .services__modal-content{
+        margin-left: 460px;
+        width: 503px;
+    }   
+    .contact__container{
+        display: flex;
+    }
+    
 }
