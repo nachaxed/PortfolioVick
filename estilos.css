@@ -783,7 +783,6 @@ img {
     outline: none;
     padding: 1.5rem;
     border-radius: .75rem;
-    z-index: 1;
 }
 
 .contact__form-tag {
@@ -792,7 +791,7 @@ img {
     left: 1.25rem;
     font-size: var(--smaller-font-size);
     background-color: var(--body-color);
-    z-index: 10;
+    z-index: 1;
 }
 
 .contact__form-area {
@@ -1032,7 +1031,7 @@ body.light-theme {
     }
 }
 
-@media screen and (max-width:425px){
+@media screen and (min-width:425px){
     .home__data{
         margin: auto;
     }
@@ -1060,7 +1059,7 @@ body.light-theme {
     }
     .services__container{
         display: inline-grid;
-        margin-left: 40px;
+        margin-left: 55px;
         margin-top: -5px;
     }
     .services__modal-content{
