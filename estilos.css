@@ -1075,7 +1075,7 @@ body.light-theme {
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1336px){
     .container{
         width: 100%;
         margin-left: 195px;
@@ -1101,5 +1101,12 @@ body.light-theme {
     .services__modal-content{
         margin-left: 370px;
         width: 50%;
+    }
+    .contact__container{
+        display: flex;
+        margin-left: 200px;
+    }
+    .contact__form{
+        width: 500px;
     }
 }
