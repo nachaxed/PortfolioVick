@@ -995,7 +995,7 @@ body.light-theme {
 
 
 /* =========== BREAKPOINT ======== */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .home__handle{
         margin: auto;
     }
@@ -1035,7 +1035,7 @@ body.light-theme {
     }
 }
 
-@media screen and (max-width:425px){
+@media screen and (min-width:425px){
     .home__data{
         margin: auto;
     }
@@ -1072,5 +1072,34 @@ body.light-theme {
     }
     #footer__git{
         margin-top: -1px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .container{
+        width: 100%;
+        margin-left: 195px;
+    }
+    .nav__menu{
+        width: 450px;
+        margin-left: 303px;
+    }
+    .about__container{
+        display: flex;
+    }
+
+    .about__img{
+        width: 320px;
+    }
+    .services__container{
+        display: inline-grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 40%;
+        margin-left: 458px;
+    }
+   
+    .services__modal-content{
+        margin-left: 370px;
+        width: 50%;
     }
 }
