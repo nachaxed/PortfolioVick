@@ -1070,9 +1070,6 @@ body.light-theme {
 }
 
 @media screen and (max-width:1440px){
-    .header{
-        margin-left: 179px;
-    }
     .nav{
         width: auto;
     }
@@ -1110,7 +1107,6 @@ body.light-theme {
     .services__container{
         display: inline-grid;
         margin-left: 410px;
-        position: relative;
         grid-template-columns: repeat(3, 1fr);
         gap: 2.5rem;
     }
@@ -1120,6 +1116,6 @@ body.light-theme {
     }   
     .contact__container{
         display: flex;
-    }
+        margin-left: 100px;
     }
 }
