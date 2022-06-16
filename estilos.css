@@ -906,8 +906,10 @@ body.light-theme {
 .light-theme .nav__logo{
     color: #0B111E;
 }    
-.light-theme .scroll-header {
-    box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1);
+.light-theme .scroll-header,
+.light-theme .home,
+.light-theme .home__social {
+    /* box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1); */
     color: var(--color-text);
 }
 
