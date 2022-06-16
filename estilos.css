@@ -805,6 +805,10 @@ img {
 #trucazo{
     opacity: 0;
 }
+.archivo{
+    font-size: 12px;
+    color: #A395E9;
+}
 /* footer */
 
 .footer {
@@ -907,9 +911,9 @@ body.light-theme {
 }    
 .light-theme .scroll-header,
 .light-theme .home,
-.light-theme .home__social {
+.light-theme .home__social-link {
     /* box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1); */
-    color: var(--color-text);
+    color: #A395E9;
 }
 
 .light-theme .nav__menu {
