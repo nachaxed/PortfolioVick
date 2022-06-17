@@ -995,7 +995,7 @@ body.light-theme {
 
 
 /* =========== BREAKPOINT ======== */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .home__handle{
         margin: auto;
     }
@@ -1035,7 +1035,7 @@ body.light-theme {
     }
 }
 
-@media screen and (max-width:425px){
+@media screen and (min-width:425px){
     .home__data{
         margin: auto;
     }
@@ -1063,19 +1063,19 @@ body.light-theme {
     }
     .services__container{
         display: inline-grid;
-        margin-left: 55px;
+        margin-left: 42px;
         margin-top: -5px;
     }
     .services__modal-content{
         width: 354px;
-        margin-left: 20px;
+        margin-left: -5px;
     }
     #footer__git{
         margin-top: -1px;
     }
 }
 
-@media screen and (min-width: 1336px){
+@media screen and (max-width: 1336px){
     .container{
         width: 100%;
         margin-left: 195px;
@@ -1096,6 +1096,9 @@ body.light-theme {
         grid-template-columns: repeat(3, 1fr);
         width: 40%;
         margin-left: 458px;
+    }
+    .services__card{
+        width: 100px;
     }
    
     .services__modal-content{
