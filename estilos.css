@@ -1035,7 +1035,7 @@ body.light-theme {
     }
 }
 
-@media screen and (min-width:425px){
+@media screen and (max-width:425px){
     .home__data{
         margin: auto;
     }
