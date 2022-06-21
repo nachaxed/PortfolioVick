@@ -898,7 +898,7 @@ body.light-theme {
     --body-color: hsl(var(--second-hue), 48%, 8%);
     --container-color: #fff;
     color: var(--container-color);
-    background-color: #fff;
+    background-color: #cec1c13b;
     --color-text: #A395E9;
 }
 .light-theme .header{
@@ -1085,14 +1085,14 @@ body.light-theme {
         margin-left: 230px;
     }
    .home__handle{
-       margin-left: 641px;
+       margin-left: 570px;
    }
    .home__img{
        margin-left: 90px;
        width: 100%;
    }
    .about{
-       margin-left: 100px;
+       margin-left: 0px;
    }
    .about__container{
        display: inline-flex;
@@ -1110,15 +1110,15 @@ body.light-theme {
    .services__container{
        display: inline-grid;
        grid-template-columns: repeat(3, 1fr);
-       margin-left: 438px;
+       margin-left: 370px;
    }
    .services__modal-content{
-       margin-left: 480px;
+       margin-left: 414px;
        width: 450px;
    }
    .contact__container{
        display: inline-flex;
-       margin-left: 350px;
+       margin-left: 270px;
    }
    .contact__card{
        width: 300px;
