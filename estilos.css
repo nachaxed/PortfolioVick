@@ -1075,41 +1075,58 @@ body.light-theme {
     }
 }
 
-@media screen and (min-width: 1336px){
-    .container{
-        width: 100%;
-        margin-left: 195px;
+@media screen and (min-width: 1326px){
+    .nav{
+        width: 1440px;
+        margin-left: 230px;
     }
     .nav__menu{
-        width: 450px;
-        margin-left: 303px;
+        width: 400px;
+        margin-left: 230px;
     }
-    .about__container{
-        display: flex;
-    }
-
-    .about__img{
-        width: 320px;
-    }
-    .services__container{
-        display: inline-grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 40%;
-        margin-left: 458px;
-    }
-    .services__card{
-        width: 100px;
-    }
-   
-    .services__modal-content{
-        margin-left: 370px;
-        width: 50%;
-    }
-    .contact__container{
-        display: flex;
-        margin-left: 200px;
-    }
-    .contact__form{
+   .home__handle{
+       margin-left: 641px;
+   }
+   .home__img{
+       margin-left: 90px;
+       width: 100%;
+   }
+   .about{
+       margin-left: 100px;
+   }
+   .about__container{
+       display: inline-flex;
+       margin-left: 140px;
+   }
+   .about__data{
+       width: auto;
+   }
+   .about__description{
+        margin-left: 10px;
+   }
+   .about__img{
+       width: 30%;
+   }
+   .services__container{
+       display: inline-grid;
+       grid-template-columns: repeat(3, 1fr);
+       margin-left: 438px;
+   }
+   .services__modal-content{
+       margin-left: 480px;
+       width: 450px;
+   }
+   .contact__container{
+       display: inline-flex;
+       margin-left: 350px;
+   }
+   .contact__card{
+       width: 300px;
+   }
+   .contact__form{
         width: 500px;
-    }
-}
+   }
+   .footer__container{
+       margin-left: 180px;
+   }
+}  
